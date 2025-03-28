@@ -5,7 +5,7 @@ export default function ButtonNewSession({ label, onClick}){
     return (
         <button onClick={onClick} className="custom-button">
             <div className='div-icon-coffee-button'>
-              <PiCoffeeLight className='iconCoffeButton'></PiCoffeeLight>
+              <PiCoffeeLight className='iconCoffeButton' data-testid="coffee-icon"></PiCoffeeLight>
             </div>
            
             <strong>{label}</strong>

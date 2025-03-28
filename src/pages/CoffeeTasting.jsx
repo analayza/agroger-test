@@ -18,7 +18,7 @@ export default function CoffeTasting() {
         <>
             <div className="contener">
                 <NavBar></NavBar>
-                <ButtonNewSession label={"Nova sessão de prova"} onClick={addNewRecipeItem}/>
+                <ButtonNewSession label={"Nova Receita"} onClick={addNewRecipeItem}/>
                 {recipeItemsList}
             </div>
         </>
