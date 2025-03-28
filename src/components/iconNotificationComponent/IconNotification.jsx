@@ -1,8 +1,8 @@
-import Notification from "../../assets/coffee-beans.png";
-import "./IconComponent.sass";
+import {GiCoffeeBeans} from "react-icons/gi";
+import "./IconNotificationComponent.sass";
 
 export default function IconNotification(){
     return(
-        <div className="notificationsearch"><img src={Notification} alt=""  className="iconnotification"/></div>
+        <div className="notificationsearch"><GiCoffeeBeans className="gitCoffeeBeans"/></div>
     )
 }
